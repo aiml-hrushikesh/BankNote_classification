@@ -4,4 +4,6 @@ conda create -n myenv python=3.9
 conda activate myenv
 conda install package_name
 
+uvicorn main:app --reload
+
 
